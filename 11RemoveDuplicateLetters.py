@@ -32,4 +32,3 @@ class Solution:
         while len(stack)!=0 :
             ans += stack.pop()
         return ans[::-1]
-        
